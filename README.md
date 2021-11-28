@@ -1,2 +1,1 @@
-# survey_form
- 
+This is the survey form project for freecodecamp.org.
