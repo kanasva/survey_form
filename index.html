@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- #1 h1 -->
+    <h1 id="title">Survey Form for changing the roof deck to be more functional</h1>
+
+    <!-- #2 description -->
+    <p id="description">The roof deck of our flat has enormous space. However, 1/5 of the area has been used just for storing water tanks, and another 4/5 empty space is just for getting the sunshine.</p>
+
+    <p id="description">Not many years ago, one of our residents suggested improving the uses of the roof deck. Nevertheless, it was controversial due to many concerns about the leak of water to the floor below; noise that can disturb residents, especially on the high floors.</p>
+
+    <p id="description">Anyway, for this year of Covid-19, people value more about public spaces. And there are many solutions to cure those problems. Thus, it is time to reconsider changing the roof deck to be more functional!</p>
+
+    <p id="description">Please fill this form to vote. If more than a half of ownership votes AGREE, we will have more enjoyable living!</p>
+    
+
+    <!-- #3 form -->
+    <form id="survey-form">
+        <fieldset>
+        <label id="name-label" for="name">Name:</lable>
+        <input id="name" type="text" required placeholder="Your Name">
+        <br>
+
+        <label id="email-label" for="email">Email:</lable>
+        <input id="email" type="email" required placeholder="Your Email">
+        <br>
+
+        <label id="number-label" for="number">Room Number:</lable>
+        <input id="number" type="number" min="1" max="86" placeholder="Your Room Number">
+        <br>
+
+        <!-- #12 dropdown -->
+        <label id="dropdown-label" for="floor">Floor</lable>
+        <select name="dropdown" id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <!-- #13 radio button -->
+        <p>Do you agree changing the roof deck to be more functional?</p>
+        <input type="radio" name="agree-disagree" value="agree">
+        <label for="agree">AGREE</label>
+        <input type="radio" name="agree-disagree" value="disagree">
+        <label for="disagree">DISAGREE</label>
+
+        <!-- #14 checkboxes-->
+        <p>If you agree, what functions should be included to this change?</p>
+        <input type="checkbox" id="Garden" name="functions" value="Garden">
+        <label for="function1">Garden</label><br>
+        <input type="checkbox" id="Vegetable Garden" name="functions" value="Vegetable Garden">
+        <label for="Vegetable Garden">Vegetable Garden</label><br>
+        <input type="checkbox" id="Bistro Set" name="functions" value="Bistro Set">
+        <label for="Bistro Set">Bistro Set</label><br>
+        <input type="checkbox" id="Running track" name="functions" value="Running track">
+        <label for="Running track">Running track</label><br>
+        <input type="checkbox" id="Outdoor Fitness Equipment" name="functions" value="Outdoor Fitness Equipment">
+        <label for="Outdoor Fitness Equipment">Outdoor Fitness Equipment</label><br>
+        <input type="checkbox" id="Performing Art Stage" name="functions" value="Performing Art Stage">
+        <label for="Performing Art Stage">Performing Art Stage</label><br>
+        
+        <!-- #15 textarea for addtional comments-->
+        <label for=additional_comments>Additional Comments</label><br>
+        <textarea name="additional_comments" rows="2" cols="50">
+        </textarea>
+
+
+        <!-- #16 submit button -->
+        <div>
+        <button type="submit" id="submit">Submit</button>
+        </div>
+        </fieldset>
+    </form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
