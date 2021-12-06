@@ -25,20 +25,20 @@
     <!-- #3 form -->
     <form id="survey-form">
         <fieldset>
-        <label id="name-label" for="name">Name:</lable>
+        <label id="name-label" for="name">Name:</label>
         <input id="name" type="text" required placeholder="Your Name">
         <br>
-
-        <label id="email-label" for="email">Email:</lable>
+        
+        <label id="email-label" for="email">Email:</label>
         <input id="email" type="email" required placeholder="Your Email">
         <br>
 
-        <label id="number-label" for="number">Room Number:</lable>
-        <input id="number" type="number" min="1" max="86" placeholder="Your Room Number">
+        <label id="number-label" for="number">Room Number:</label>
+        <input id="number" type="number" min="1" max="86" placeholder="No.">
         <br>
 
         <!-- #12 dropdown -->
-        <label id="dropdown-label" for="floor">Floor</lable>
+        <label id="dropdown-label" for="floor">Floor:</label>
         <select name="dropdown" id="dropdown">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -51,14 +51,14 @@
         </select>
 
         <!-- #13 radio button -->
-        <p>Do you agree changing the roof deck to be more functional?</p>
+        <label>Do you agree changing the roof deck to be more functional?</label>
         <input type="radio" name="agree-disagree" value="agree">
         <label for="agree">AGREE</label>
         <input type="radio" name="agree-disagree" value="disagree">
         <label for="disagree">DISAGREE</label>
 
         <!-- #14 checkboxes-->
-        <p>If you agree, what functions should be included to this change?</p>
+        <label>If you agree, what functions should be included to this change?</label>
         <input type="checkbox" id="Garden" name="functions" value="Garden">
         <label for="function1">Garden</label><br>
         <input type="checkbox" id="Vegetable Garden" name="functions" value="Vegetable Garden">
@@ -74,7 +74,7 @@
         
         <!-- #15 textarea for addtional comments-->
         <label for=additional_comments>Additional Comments</label><br>
-        <textarea name="additional_comments" rows="2" cols="50">
+        <textarea name="additional_comments">
         </textarea>
 
 
