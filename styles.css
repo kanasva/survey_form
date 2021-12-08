@@ -4,10 +4,14 @@ body {
     max-width: 620px;
     margin: auto;
     padding: 10px;
+    background-color: #22577E;
+    color: white;
+    font-family: Sans-serif;
 }
 
 #title {
-
+    font-family: Cursive;
+    text-align: center;
 }
 
 #description {
@@ -17,6 +21,10 @@ body {
 #survey-form {
     max-width: 400px;
     margin: auto;
+    background-color: #4B7599;
+    border: 5px solid #95D1CC;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 label {
@@ -26,7 +34,7 @@ label {
 }
 
 #name, #email {
-    width: 15rem;
+    width: 98%;
 }
 
 #number {
