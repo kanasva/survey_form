@@ -4,14 +4,25 @@ body {
     max-width: 620px;
     margin: auto;
     padding: 10px;
-    background-color: #22577E;
+    /* background-color: #22577E; */
+    background-color: rgb(65, 50, 60);
     color: white;
     font-family: Sans-serif;
+}
+
+main {
+    background-color: rgb(238, 117, 157);
+    padding: 10px;
+    border: 5px solid pink;
+    border-radius: 5px;
 }
 
 #title {
     font-family: Cursive;
     text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+    border: solid rgba(0, 0, 0, 0.55);
+    border-width: 0.2rem 0;
 }
 
 #description {
@@ -29,7 +40,6 @@ body {
 
 label {
     display: inline-block;
-    /* border: 1px solid red; */
     margin: 0.5rem 0;
 }
 
