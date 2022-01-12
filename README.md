@@ -1,1 +1,1 @@
-This is the survey form project for freecodecamp.org.
+This is the survey form project for Responsive Web Design Certification on FreeCodeCamp.org 
